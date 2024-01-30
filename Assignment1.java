@@ -32,7 +32,9 @@ public class Assignment1 {
         catch(Exception e){
             System.out.println("Reenter date and time in right format."+e);
         }
-        
+        finally{
+            sc.close();
+        }
 
     }
 }
