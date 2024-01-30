@@ -84,7 +84,6 @@ public class Store {
     
     
         public void addMovie(Movie movie) {
-            // TODO
             movies.add(new Movie("pawan kalya","bjjdkl",4.2));
 
         }
